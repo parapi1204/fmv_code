@@ -1,0 +1,4052 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1653fa08-20260127 OPENFOAM=2406 patch=260127 version=2406
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -parallel
+Date   : Aug 24 2026
+Time   : 06:45:27
+Host   : 4eaeaf850773
+PID    : 199000
+I/O    : uncollated
+Case   : /app/run/cylinder2D/solve_000
+nProcs : 2
+Hosts  :
+(
+    (4eaeaf850773 2)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Initial memory 337816 kB
+Create mesh for time = 0
+
+VTK mesh topology: 0.02 s, 339052 kB
+Time: 0
+    volScalar    : p
+    volVector    : U
+    Internal  : "VTK/solve_000_0/internal.vtu"
+    Boundary  : "VTK/solve_000_0/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_0/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_0/boundary/wall.vtp"
+Wrote in 0.02 s, 341108 kB
+Time: 0.01
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_100/internal.vtu"
+    Boundary  : "VTK/solve_000_100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_100/boundary/wall.vtp"
+Wrote in 0.02 s, 341108 kB
+Time: 0.02
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_200/internal.vtu"
+    Boundary  : "VTK/solve_000_200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_200/boundary/wall.vtp"
+Wrote in 0.02 s, 340932 kB
+Time: 0.03
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_300/internal.vtu"
+    Boundary  : "VTK/solve_000_300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_300/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.04
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_400/internal.vtu"
+    Boundary  : "VTK/solve_000_400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_400/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.05
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_500/internal.vtu"
+    Boundary  : "VTK/solve_000_500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_500/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.06
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_600/internal.vtu"
+    Boundary  : "VTK/solve_000_600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_600/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.07
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_700/internal.vtu"
+    Boundary  : "VTK/solve_000_700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_700/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.08
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_800/internal.vtu"
+    Boundary  : "VTK/solve_000_800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_800/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.09
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_900/internal.vtu"
+    Boundary  : "VTK/solve_000_900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_900/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1000/internal.vtu"
+    Boundary  : "VTK/solve_000_1000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1000/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.11
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1100/internal.vtu"
+    Boundary  : "VTK/solve_000_1100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1100/boundary/wall.vtp"
+Wrote in 0.01 s, 340812 kB
+Time: 0.12
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1200/internal.vtu"
+    Boundary  : "VTK/solve_000_1200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1200/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.13
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1300/internal.vtu"
+    Boundary  : "VTK/solve_000_1300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1300/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.14
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1400/internal.vtu"
+    Boundary  : "VTK/solve_000_1400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1400/boundary/wall.vtp"
+Wrote in 0.02 s, 340844 kB
+Time: 0.15
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1500/internal.vtu"
+    Boundary  : "VTK/solve_000_1500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1500/boundary/wall.vtp"
+Wrote in 0.03 s, 341220 kB
+Time: 0.16
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1600/internal.vtu"
+    Boundary  : "VTK/solve_000_1600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1600/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.17
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1700/internal.vtu"
+    Boundary  : "VTK/solve_000_1700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1700/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.18
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1800/internal.vtu"
+    Boundary  : "VTK/solve_000_1800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1800/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.19
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_1900/internal.vtu"
+    Boundary  : "VTK/solve_000_1900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_1900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_1900/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2000/internal.vtu"
+    Boundary  : "VTK/solve_000_2000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2000/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.21
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2100/internal.vtu"
+    Boundary  : "VTK/solve_000_2100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2100/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.22
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2200/internal.vtu"
+    Boundary  : "VTK/solve_000_2200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2200/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.23
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2300/internal.vtu"
+    Boundary  : "VTK/solve_000_2300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2300/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.24
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2400/internal.vtu"
+    Boundary  : "VTK/solve_000_2400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2400/boundary/wall.vtp"
+Wrote in 0.01 s, 340812 kB
+Time: 0.25
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2500/internal.vtu"
+    Boundary  : "VTK/solve_000_2500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2500/boundary/wall.vtp"
+Wrote in 0.03 s, 340848 kB
+Time: 0.26
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2600/internal.vtu"
+    Boundary  : "VTK/solve_000_2600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2600/boundary/wall.vtp"
+Wrote in 0.02 s, 341224 kB
+Time: 0.27
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2700/internal.vtu"
+    Boundary  : "VTK/solve_000_2700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2700/boundary/wall.vtp"
+Wrote in 0.02 s, 341224 kB
+Time: 0.28
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2800/internal.vtu"
+    Boundary  : "VTK/solve_000_2800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2800/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.29
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_2900/internal.vtu"
+    Boundary  : "VTK/solve_000_2900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_2900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_2900/boundary/wall.vtp"
+Wrote in 0.01 s, 340812 kB
+Time: 0.3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3000/internal.vtu"
+    Boundary  : "VTK/solve_000_3000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3000/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.31
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3100/internal.vtu"
+    Boundary  : "VTK/solve_000_3100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3100/boundary/wall.vtp"
+Wrote in 0.02 s, 340848 kB
+Time: 0.32
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3200/internal.vtu"
+    Boundary  : "VTK/solve_000_3200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3200/boundary/wall.vtp"
+Wrote in 0.03 s, 341224 kB
+Time: 0.33
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3300/internal.vtu"
+    Boundary  : "VTK/solve_000_3300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3300/boundary/wall.vtp"
+Wrote in 0.02 s, 340884 kB
+Time: 0.34
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3400/internal.vtu"
+    Boundary  : "VTK/solve_000_3400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3400/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 0.35
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3500/internal.vtu"
+    Boundary  : "VTK/solve_000_3500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3500/boundary/wall.vtp"
+Wrote in 0.02 s, 341244 kB
+Time: 0.36
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3600/internal.vtu"
+    Boundary  : "VTK/solve_000_3600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3600/boundary/wall.vtp"
+Wrote in 0.01 s, 341244 kB
+Time: 0.37
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3700/internal.vtu"
+    Boundary  : "VTK/solve_000_3700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3700/boundary/wall.vtp"
+Wrote in 0.03 s, 341228 kB
+Time: 0.38
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3800/internal.vtu"
+    Boundary  : "VTK/solve_000_3800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3800/boundary/wall.vtp"
+Wrote in 0.02 s, 341228 kB
+Time: 0.39
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_3900/internal.vtu"
+    Boundary  : "VTK/solve_000_3900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_3900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_3900/boundary/wall.vtp"
+Wrote in 0.02 s, 341228 kB
+Time: 0.4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4000/internal.vtu"
+    Boundary  : "VTK/solve_000_4000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4000/boundary/wall.vtp"
+Wrote in 0.02 s, 341228 kB
+Time: 0.41
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4100/internal.vtu"
+    Boundary  : "VTK/solve_000_4100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4100/boundary/wall.vtp"
+Wrote in 0.02 s, 341228 kB
+Time: 0.42
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4200/internal.vtu"
+    Boundary  : "VTK/solve_000_4200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4200/boundary/wall.vtp"
+Wrote in 0.03 s, 341228 kB
+Time: 0.43
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4300/internal.vtu"
+    Boundary  : "VTK/solve_000_4300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4300/boundary/wall.vtp"
+Wrote in 0.02 s, 341228 kB
+Time: 0.44
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4400/internal.vtu"
+    Boundary  : "VTK/solve_000_4400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4400/boundary/wall.vtp"
+Wrote in 0.03 s, 341228 kB
+Time: 0.45
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4500/internal.vtu"
+    Boundary  : "VTK/solve_000_4500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4500/boundary/wall.vtp"
+Wrote in 0.01 s, 341228 kB
+Time: 0.46
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4600/internal.vtu"
+    Boundary  : "VTK/solve_000_4600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4600/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.47
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4700/internal.vtu"
+    Boundary  : "VTK/solve_000_4700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4700/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.48
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4800/internal.vtu"
+    Boundary  : "VTK/solve_000_4800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4800/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.49
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_4900/internal.vtu"
+    Boundary  : "VTK/solve_000_4900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_4900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_4900/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5000/internal.vtu"
+    Boundary  : "VTK/solve_000_5000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5000/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.51
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5100/internal.vtu"
+    Boundary  : "VTK/solve_000_5100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5100/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 0.52
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5200/internal.vtu"
+    Boundary  : "VTK/solve_000_5200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5200/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.53
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5300/internal.vtu"
+    Boundary  : "VTK/solve_000_5300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5300/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.54
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5400/internal.vtu"
+    Boundary  : "VTK/solve_000_5400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5400/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.55
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5500/internal.vtu"
+    Boundary  : "VTK/solve_000_5500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5500/boundary/wall.vtp"
+Wrote in 0.01 s, 340812 kB
+Time: 0.56
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5600/internal.vtu"
+    Boundary  : "VTK/solve_000_5600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5600/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.57
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5700/internal.vtu"
+    Boundary  : "VTK/solve_000_5700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5700/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.58
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5800/internal.vtu"
+    Boundary  : "VTK/solve_000_5800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5800/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.59
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_5900/internal.vtu"
+    Boundary  : "VTK/solve_000_5900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_5900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_5900/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.6
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6000/internal.vtu"
+    Boundary  : "VTK/solve_000_6000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6000/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.61
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6100/internal.vtu"
+    Boundary  : "VTK/solve_000_6100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6100/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 0.62
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6200/internal.vtu"
+    Boundary  : "VTK/solve_000_6200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6200/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.63
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6300/internal.vtu"
+    Boundary  : "VTK/solve_000_6300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6300/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.64
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6400/internal.vtu"
+    Boundary  : "VTK/solve_000_6400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6400/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.65
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6500/internal.vtu"
+    Boundary  : "VTK/solve_000_6500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6500/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.66
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6600/internal.vtu"
+    Boundary  : "VTK/solve_000_6600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6600/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.67
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6700/internal.vtu"
+    Boundary  : "VTK/solve_000_6700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6700/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.68
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6800/internal.vtu"
+    Boundary  : "VTK/solve_000_6800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6800/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.69
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_6900/internal.vtu"
+    Boundary  : "VTK/solve_000_6900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_6900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_6900/boundary/wall.vtp"
+Wrote in 0.03 s, 340928 kB
+Time: 0.7
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7000/internal.vtu"
+    Boundary  : "VTK/solve_000_7000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7000/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 0.71
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7100/internal.vtu"
+    Boundary  : "VTK/solve_000_7100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7100/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 0.72
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7200/internal.vtu"
+    Boundary  : "VTK/solve_000_7200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7200/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.73
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7300/internal.vtu"
+    Boundary  : "VTK/solve_000_7300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7300/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 0.74
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7400/internal.vtu"
+    Boundary  : "VTK/solve_000_7400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7400/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 0.75
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7500/internal.vtu"
+    Boundary  : "VTK/solve_000_7500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7500/boundary/wall.vtp"
+Wrote in 0.04 s, 340928 kB
+Time: 0.76
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7600/internal.vtu"
+    Boundary  : "VTK/solve_000_7600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7600/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.77
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7700/internal.vtu"
+    Boundary  : "VTK/solve_000_7700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7700/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.78
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7800/internal.vtu"
+    Boundary  : "VTK/solve_000_7800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7800/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 0.79
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_7900/internal.vtu"
+    Boundary  : "VTK/solve_000_7900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_7900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_7900/boundary/wall.vtp"
+Wrote in 0.03 s, 341336 kB
+Time: 0.8
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8000/internal.vtu"
+    Boundary  : "VTK/solve_000_8000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8000/boundary/wall.vtp"
+Wrote in 0.03 s, 341336 kB
+Time: 0.81
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8100/internal.vtu"
+    Boundary  : "VTK/solve_000_8100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8100/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 0.82
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8200/internal.vtu"
+    Boundary  : "VTK/solve_000_8200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8200/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.83
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8300/internal.vtu"
+    Boundary  : "VTK/solve_000_8300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8300/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 0.84
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8400/internal.vtu"
+    Boundary  : "VTK/solve_000_8400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8400/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.85
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8500/internal.vtu"
+    Boundary  : "VTK/solve_000_8500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8500/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.86
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8600/internal.vtu"
+    Boundary  : "VTK/solve_000_8600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8600/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 0.87
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8700/internal.vtu"
+    Boundary  : "VTK/solve_000_8700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8700/boundary/wall.vtp"
+Wrote in 0.02 s, 341336 kB
+Time: 0.88
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8800/internal.vtu"
+    Boundary  : "VTK/solve_000_8800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8800/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.89
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_8900/internal.vtu"
+    Boundary  : "VTK/solve_000_8900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_8900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_8900/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 0.9
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9000/internal.vtu"
+    Boundary  : "VTK/solve_000_9000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9000/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 0.91
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9100/internal.vtu"
+    Boundary  : "VTK/solve_000_9100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9100/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 0.92
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9200/internal.vtu"
+    Boundary  : "VTK/solve_000_9200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9200/boundary/wall.vtp"
+Wrote in 0.02 s, 341336 kB
+Time: 0.93
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9300/internal.vtu"
+    Boundary  : "VTK/solve_000_9300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9300/boundary/wall.vtp"
+Wrote in 0.03 s, 340812 kB
+Time: 0.94
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9400/internal.vtu"
+    Boundary  : "VTK/solve_000_9400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9400/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 0.95
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9500/internal.vtu"
+    Boundary  : "VTK/solve_000_9500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9500/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 0.96
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9600/internal.vtu"
+    Boundary  : "VTK/solve_000_9600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9600/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 0.97
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9700/internal.vtu"
+    Boundary  : "VTK/solve_000_9700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9700/boundary/wall.vtp"
+Wrote in 0.03 s, 341340 kB
+Time: 0.98
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9800/internal.vtu"
+    Boundary  : "VTK/solve_000_9800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9800/boundary/wall.vtp"
+Wrote in 0.02 s, 341340 kB
+Time: 0.99
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_9900/internal.vtu"
+    Boundary  : "VTK/solve_000_9900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_9900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_9900/boundary/wall.vtp"
+Wrote in 0.03 s, 341340 kB
+Time: 1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10000/internal.vtu"
+    Boundary  : "VTK/solve_000_10000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10000/boundary/wall.vtp"
+Wrote in 0.02 s, 340892 kB
+Time: 1.01
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10100/internal.vtu"
+    Boundary  : "VTK/solve_000_10100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10100/boundary/wall.vtp"
+Wrote in 0.03 s, 341340 kB
+Time: 1.02
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10200/internal.vtu"
+    Boundary  : "VTK/solve_000_10200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10200/boundary/wall.vtp"
+Wrote in 0.02 s, 340892 kB
+Time: 1.03
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10300/internal.vtu"
+    Boundary  : "VTK/solve_000_10300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10300/boundary/wall.vtp"
+Wrote in 0.03 s, 341340 kB
+Time: 1.04
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10400/internal.vtu"
+    Boundary  : "VTK/solve_000_10400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10400/boundary/wall.vtp"
+Wrote in 0.03 s, 340892 kB
+Time: 1.05
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10500/internal.vtu"
+    Boundary  : "VTK/solve_000_10500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10500/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.06
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10600/internal.vtu"
+    Boundary  : "VTK/solve_000_10600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10600/boundary/wall.vtp"
+Wrote in 0.03 s, 341340 kB
+Time: 1.07
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10700/internal.vtu"
+    Boundary  : "VTK/solve_000_10700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10700/boundary/wall.vtp"
+Wrote in 0.02 s, 340812 kB
+Time: 1.08
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10800/internal.vtu"
+    Boundary  : "VTK/solve_000_10800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10800/boundary/wall.vtp"
+Wrote in 0.04 s, 340908 kB
+Time: 1.09
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_10900/internal.vtu"
+    Boundary  : "VTK/solve_000_10900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_10900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_10900/boundary/wall.vtp"
+Wrote in 0.05 s, 340908 kB
+Time: 1.1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11000/internal.vtu"
+    Boundary  : "VTK/solve_000_11000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11000/boundary/wall.vtp"
+Wrote in 0.04 s, 341340 kB
+Time: 1.11
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11100/internal.vtu"
+    Boundary  : "VTK/solve_000_11100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11100/boundary/wall.vtp"
+Wrote in 0.04 s, 341340 kB
+Time: 1.12
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11200/internal.vtu"
+    Boundary  : "VTK/solve_000_11200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11200/boundary/wall.vtp"
+Wrote in 0.03 s, 340892 kB
+Time: 1.13
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11300/internal.vtu"
+    Boundary  : "VTK/solve_000_11300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11300/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 1.14
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11400/internal.vtu"
+    Boundary  : "VTK/solve_000_11400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11400/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.15
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11500/internal.vtu"
+    Boundary  : "VTK/solve_000_11500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11500/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 1.16
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11600/internal.vtu"
+    Boundary  : "VTK/solve_000_11600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11600/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.17
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11700/internal.vtu"
+    Boundary  : "VTK/solve_000_11700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11700/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.18
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11800/internal.vtu"
+    Boundary  : "VTK/solve_000_11800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11800/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 1.19
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_11900/internal.vtu"
+    Boundary  : "VTK/solve_000_11900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_11900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_11900/boundary/wall.vtp"
+Wrote in 0.03 s, 340908 kB
+Time: 1.2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12000/internal.vtu"
+    Boundary  : "VTK/solve_000_12000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12000/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.21
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12100/internal.vtu"
+    Boundary  : "VTK/solve_000_12100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12100/boundary/wall.vtp"
+Wrote in 0.02 s, 340908 kB
+Time: 1.22
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12200/internal.vtu"
+    Boundary  : "VTK/solve_000_12200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12200/boundary/wall.vtp"
+Wrote in 0.04 s, 340924 kB
+Time: 1.23
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12300/internal.vtu"
+    Boundary  : "VTK/solve_000_12300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12300/boundary/wall.vtp"
+Wrote in 0.01 s, 340924 kB
+Time: 1.24
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12400/internal.vtu"
+    Boundary  : "VTK/solve_000_12400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12400/boundary/wall.vtp"
+Wrote in 0.04 s, 340924 kB
+Time: 1.25
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12500/internal.vtu"
+    Boundary  : "VTK/solve_000_12500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12500/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 1.26
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12600/internal.vtu"
+    Boundary  : "VTK/solve_000_12600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12600/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.27
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12700/internal.vtu"
+    Boundary  : "VTK/solve_000_12700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12700/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.28
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12800/internal.vtu"
+    Boundary  : "VTK/solve_000_12800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12800/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 1.29
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_12900/internal.vtu"
+    Boundary  : "VTK/solve_000_12900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_12900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_12900/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 1.3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13000/internal.vtu"
+    Boundary  : "VTK/solve_000_13000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13000/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.31
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13100/internal.vtu"
+    Boundary  : "VTK/solve_000_13100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13100/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.32
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13200/internal.vtu"
+    Boundary  : "VTK/solve_000_13200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13200/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 1.33
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13300/internal.vtu"
+    Boundary  : "VTK/solve_000_13300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13300/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.34
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13400/internal.vtu"
+    Boundary  : "VTK/solve_000_13400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13400/boundary/wall.vtp"
+Wrote in 0.02 s, 340924 kB
+Time: 1.35
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13500/internal.vtu"
+    Boundary  : "VTK/solve_000_13500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13500/boundary/wall.vtp"
+Wrote in 0.04 s, 340924 kB
+Time: 1.36
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13600/internal.vtu"
+    Boundary  : "VTK/solve_000_13600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13600/boundary/wall.vtp"
+Wrote in 0.02 s, 340960 kB
+Time: 1.37
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13700/internal.vtu"
+    Boundary  : "VTK/solve_000_13700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13700/boundary/wall.vtp"
+Wrote in 0.03 s, 340924 kB
+Time: 1.38
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13800/internal.vtu"
+    Boundary  : "VTK/solve_000_13800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13800/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 1.39
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_13900/internal.vtu"
+    Boundary  : "VTK/solve_000_13900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_13900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_13900/boundary/wall.vtp"
+Wrote in 0.02 s, 340928 kB
+Time: 1.4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14000/internal.vtu"
+    Boundary  : "VTK/solve_000_14000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14000/boundary/wall.vtp"
+Wrote in 0.03 s, 340928 kB
+Time: 1.41
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14100/internal.vtu"
+    Boundary  : "VTK/solve_000_14100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14100/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.42
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14200/internal.vtu"
+    Boundary  : "VTK/solve_000_14200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14200/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.43
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14300/internal.vtu"
+    Boundary  : "VTK/solve_000_14300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14300/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.44
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14400/internal.vtu"
+    Boundary  : "VTK/solve_000_14400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14400/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.45
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14500/internal.vtu"
+    Boundary  : "VTK/solve_000_14500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14500/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.46
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14600/internal.vtu"
+    Boundary  : "VTK/solve_000_14600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14600/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.47
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14700/internal.vtu"
+    Boundary  : "VTK/solve_000_14700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14700/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.48
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14800/internal.vtu"
+    Boundary  : "VTK/solve_000_14800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14800/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.49
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_14900/internal.vtu"
+    Boundary  : "VTK/solve_000_14900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_14900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_14900/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15000/internal.vtu"
+    Boundary  : "VTK/solve_000_15000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15000/boundary/wall.vtp"
+Wrote in 0.04 s, 340868 kB
+Time: 1.51
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15100/internal.vtu"
+    Boundary  : "VTK/solve_000_15100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15100/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.52
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15200/internal.vtu"
+    Boundary  : "VTK/solve_000_15200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15200/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.53
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15300/internal.vtu"
+    Boundary  : "VTK/solve_000_15300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15300/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.54
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15400/internal.vtu"
+    Boundary  : "VTK/solve_000_15400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15400/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.55
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15500/internal.vtu"
+    Boundary  : "VTK/solve_000_15500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15500/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.56
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15600/internal.vtu"
+    Boundary  : "VTK/solve_000_15600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15600/boundary/wall.vtp"
+Wrote in 0.03 s, 340868 kB
+Time: 1.57
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15700/internal.vtu"
+    Boundary  : "VTK/solve_000_15700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15700/boundary/wall.vtp"
+Wrote in 0.02 s, 340868 kB
+Time: 1.58
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15800/internal.vtu"
+    Boundary  : "VTK/solve_000_15800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15800/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.59
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_15900/internal.vtu"
+    Boundary  : "VTK/solve_000_15900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_15900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_15900/boundary/wall.vtp"
+Wrote in 0.02 s, 340920 kB
+Time: 1.6
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16000/internal.vtu"
+    Boundary  : "VTK/solve_000_16000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16000/boundary/wall.vtp"
+Wrote in 0.04 s, 340920 kB
+Time: 1.61
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16100/internal.vtu"
+    Boundary  : "VTK/solve_000_16100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16100/boundary/wall.vtp"
+Wrote in 0.02 s, 340920 kB
+Time: 1.62
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16200/internal.vtu"
+    Boundary  : "VTK/solve_000_16200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16200/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.63
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16300/internal.vtu"
+    Boundary  : "VTK/solve_000_16300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16300/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.64
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16400/internal.vtu"
+    Boundary  : "VTK/solve_000_16400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16400/boundary/wall.vtp"
+Wrote in 0.02 s, 340920 kB
+Time: 1.65
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16500/internal.vtu"
+    Boundary  : "VTK/solve_000_16500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16500/boundary/wall.vtp"
+Wrote in 0.02 s, 340920 kB
+Time: 1.66
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16600/internal.vtu"
+    Boundary  : "VTK/solve_000_16600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16600/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.67
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16700/internal.vtu"
+    Boundary  : "VTK/solve_000_16700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16700/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.68
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16800/internal.vtu"
+    Boundary  : "VTK/solve_000_16800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16800/boundary/wall.vtp"
+Wrote in 0.02 s, 340920 kB
+Time: 1.69
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_16900/internal.vtu"
+    Boundary  : "VTK/solve_000_16900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_16900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_16900/boundary/wall.vtp"
+Wrote in 0.03 s, 340920 kB
+Time: 1.7
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17000/internal.vtu"
+    Boundary  : "VTK/solve_000_17000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.71
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17100/internal.vtu"
+    Boundary  : "VTK/solve_000_17100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.72
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17200/internal.vtu"
+    Boundary  : "VTK/solve_000_17200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.73
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17300/internal.vtu"
+    Boundary  : "VTK/solve_000_17300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17300/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.74
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17400/internal.vtu"
+    Boundary  : "VTK/solve_000_17400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.75
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17500/internal.vtu"
+    Boundary  : "VTK/solve_000_17500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17500/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 1.76
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17600/internal.vtu"
+    Boundary  : "VTK/solve_000_17600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.77
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17700/internal.vtu"
+    Boundary  : "VTK/solve_000_17700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.78
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17800/internal.vtu"
+    Boundary  : "VTK/solve_000_17800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.79
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_17900/internal.vtu"
+    Boundary  : "VTK/solve_000_17900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_17900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_17900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.8
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18000/internal.vtu"
+    Boundary  : "VTK/solve_000_18000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.81
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18100/internal.vtu"
+    Boundary  : "VTK/solve_000_18100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.82
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18200/internal.vtu"
+    Boundary  : "VTK/solve_000_18200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.83
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18300/internal.vtu"
+    Boundary  : "VTK/solve_000_18300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.84
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18400/internal.vtu"
+    Boundary  : "VTK/solve_000_18400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.85
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18500/internal.vtu"
+    Boundary  : "VTK/solve_000_18500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.86
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18600/internal.vtu"
+    Boundary  : "VTK/solve_000_18600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18600/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.87
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18700/internal.vtu"
+    Boundary  : "VTK/solve_000_18700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 1.88
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18800/internal.vtu"
+    Boundary  : "VTK/solve_000_18800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18800/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.89
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_18900/internal.vtu"
+    Boundary  : "VTK/solve_000_18900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_18900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_18900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.9
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19000/internal.vtu"
+    Boundary  : "VTK/solve_000_19000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19000/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.91
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19100/internal.vtu"
+    Boundary  : "VTK/solve_000_19100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.92
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19200/internal.vtu"
+    Boundary  : "VTK/solve_000_19200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.93
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19300/internal.vtu"
+    Boundary  : "VTK/solve_000_19300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19300/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.94
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19400/internal.vtu"
+    Boundary  : "VTK/solve_000_19400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.95
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19500/internal.vtu"
+    Boundary  : "VTK/solve_000_19500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19500/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 1.96
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19600/internal.vtu"
+    Boundary  : "VTK/solve_000_19600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.97
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19700/internal.vtu"
+    Boundary  : "VTK/solve_000_19700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.98
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19800/internal.vtu"
+    Boundary  : "VTK/solve_000_19800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 1.99
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_19900/internal.vtu"
+    Boundary  : "VTK/solve_000_19900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_19900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_19900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20000/internal.vtu"
+    Boundary  : "VTK/solve_000_20000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.01
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20100/internal.vtu"
+    Boundary  : "VTK/solve_000_20100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.02
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20200/internal.vtu"
+    Boundary  : "VTK/solve_000_20200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20200/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.03
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20300/internal.vtu"
+    Boundary  : "VTK/solve_000_20300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.04
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20400/internal.vtu"
+    Boundary  : "VTK/solve_000_20400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.05
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20500/internal.vtu"
+    Boundary  : "VTK/solve_000_20500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.06
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20600/internal.vtu"
+    Boundary  : "VTK/solve_000_20600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.07
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20700/internal.vtu"
+    Boundary  : "VTK/solve_000_20700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20700/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.08
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20800/internal.vtu"
+    Boundary  : "VTK/solve_000_20800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.09
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_20900/internal.vtu"
+    Boundary  : "VTK/solve_000_20900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_20900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_20900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21000/internal.vtu"
+    Boundary  : "VTK/solve_000_21000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.11
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21100/internal.vtu"
+    Boundary  : "VTK/solve_000_21100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.12
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21200/internal.vtu"
+    Boundary  : "VTK/solve_000_21200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21200/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.13
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21300/internal.vtu"
+    Boundary  : "VTK/solve_000_21300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.14
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21400/internal.vtu"
+    Boundary  : "VTK/solve_000_21400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.15
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21500/internal.vtu"
+    Boundary  : "VTK/solve_000_21500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21500/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.16
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21600/internal.vtu"
+    Boundary  : "VTK/solve_000_21600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.17
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21700/internal.vtu"
+    Boundary  : "VTK/solve_000_21700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.18
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21800/internal.vtu"
+    Boundary  : "VTK/solve_000_21800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21800/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.19
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_21900/internal.vtu"
+    Boundary  : "VTK/solve_000_21900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_21900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_21900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22000/internal.vtu"
+    Boundary  : "VTK/solve_000_22000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.21
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22100/internal.vtu"
+    Boundary  : "VTK/solve_000_22100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.22
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22200/internal.vtu"
+    Boundary  : "VTK/solve_000_22200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.23
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22300/internal.vtu"
+    Boundary  : "VTK/solve_000_22300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.24
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22400/internal.vtu"
+    Boundary  : "VTK/solve_000_22400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.25
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22500/internal.vtu"
+    Boundary  : "VTK/solve_000_22500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.26
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22600/internal.vtu"
+    Boundary  : "VTK/solve_000_22600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.27
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22700/internal.vtu"
+    Boundary  : "VTK/solve_000_22700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.28
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22800/internal.vtu"
+    Boundary  : "VTK/solve_000_22800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.29
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_22900/internal.vtu"
+    Boundary  : "VTK/solve_000_22900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_22900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_22900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23000/internal.vtu"
+    Boundary  : "VTK/solve_000_23000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.31
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23100/internal.vtu"
+    Boundary  : "VTK/solve_000_23100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.32
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23200/internal.vtu"
+    Boundary  : "VTK/solve_000_23200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.33
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23300/internal.vtu"
+    Boundary  : "VTK/solve_000_23300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.34
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23400/internal.vtu"
+    Boundary  : "VTK/solve_000_23400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.35
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23500/internal.vtu"
+    Boundary  : "VTK/solve_000_23500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.36
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23600/internal.vtu"
+    Boundary  : "VTK/solve_000_23600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23600/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.37
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23700/internal.vtu"
+    Boundary  : "VTK/solve_000_23700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.38
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23800/internal.vtu"
+    Boundary  : "VTK/solve_000_23800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.39
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_23900/internal.vtu"
+    Boundary  : "VTK/solve_000_23900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_23900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_23900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24000/internal.vtu"
+    Boundary  : "VTK/solve_000_24000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.41
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24100/internal.vtu"
+    Boundary  : "VTK/solve_000_24100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.42
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24200/internal.vtu"
+    Boundary  : "VTK/solve_000_24200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.43
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24300/internal.vtu"
+    Boundary  : "VTK/solve_000_24300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.44
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24400/internal.vtu"
+    Boundary  : "VTK/solve_000_24400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.45
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24500/internal.vtu"
+    Boundary  : "VTK/solve_000_24500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.46
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24600/internal.vtu"
+    Boundary  : "VTK/solve_000_24600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.47
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24700/internal.vtu"
+    Boundary  : "VTK/solve_000_24700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.48
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24800/internal.vtu"
+    Boundary  : "VTK/solve_000_24800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.49
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_24900/internal.vtu"
+    Boundary  : "VTK/solve_000_24900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_24900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_24900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25000/internal.vtu"
+    Boundary  : "VTK/solve_000_25000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.51
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25100/internal.vtu"
+    Boundary  : "VTK/solve_000_25100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.52
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25200/internal.vtu"
+    Boundary  : "VTK/solve_000_25200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.53
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25300/internal.vtu"
+    Boundary  : "VTK/solve_000_25300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.54
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25400/internal.vtu"
+    Boundary  : "VTK/solve_000_25400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.55
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25500/internal.vtu"
+    Boundary  : "VTK/solve_000_25500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25500/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.56
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25600/internal.vtu"
+    Boundary  : "VTK/solve_000_25600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.57
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25700/internal.vtu"
+    Boundary  : "VTK/solve_000_25700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.58
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25800/internal.vtu"
+    Boundary  : "VTK/solve_000_25800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.59
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_25900/internal.vtu"
+    Boundary  : "VTK/solve_000_25900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_25900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_25900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.6
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26000/internal.vtu"
+    Boundary  : "VTK/solve_000_26000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26000/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.61
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26100/internal.vtu"
+    Boundary  : "VTK/solve_000_26100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.62
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26200/internal.vtu"
+    Boundary  : "VTK/solve_000_26200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.63
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26300/internal.vtu"
+    Boundary  : "VTK/solve_000_26300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.64
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26400/internal.vtu"
+    Boundary  : "VTK/solve_000_26400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26400/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.65
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26500/internal.vtu"
+    Boundary  : "VTK/solve_000_26500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.66
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26600/internal.vtu"
+    Boundary  : "VTK/solve_000_26600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.67
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26700/internal.vtu"
+    Boundary  : "VTK/solve_000_26700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.68
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26800/internal.vtu"
+    Boundary  : "VTK/solve_000_26800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.69
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_26900/internal.vtu"
+    Boundary  : "VTK/solve_000_26900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_26900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_26900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.7
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27000/internal.vtu"
+    Boundary  : "VTK/solve_000_27000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.71
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27100/internal.vtu"
+    Boundary  : "VTK/solve_000_27100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.72
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27200/internal.vtu"
+    Boundary  : "VTK/solve_000_27200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.73
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27300/internal.vtu"
+    Boundary  : "VTK/solve_000_27300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.74
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27400/internal.vtu"
+    Boundary  : "VTK/solve_000_27400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.75
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27500/internal.vtu"
+    Boundary  : "VTK/solve_000_27500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.76
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27600/internal.vtu"
+    Boundary  : "VTK/solve_000_27600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.77
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27700/internal.vtu"
+    Boundary  : "VTK/solve_000_27700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.78
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27800/internal.vtu"
+    Boundary  : "VTK/solve_000_27800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.79
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_27900/internal.vtu"
+    Boundary  : "VTK/solve_000_27900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_27900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_27900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.8
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28000/internal.vtu"
+    Boundary  : "VTK/solve_000_28000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.81
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28100/internal.vtu"
+    Boundary  : "VTK/solve_000_28100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.82
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28200/internal.vtu"
+    Boundary  : "VTK/solve_000_28200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.83
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28300/internal.vtu"
+    Boundary  : "VTK/solve_000_28300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.84
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28400/internal.vtu"
+    Boundary  : "VTK/solve_000_28400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.85
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28500/internal.vtu"
+    Boundary  : "VTK/solve_000_28500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.86
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28600/internal.vtu"
+    Boundary  : "VTK/solve_000_28600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28600/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.87
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28700/internal.vtu"
+    Boundary  : "VTK/solve_000_28700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.88
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28800/internal.vtu"
+    Boundary  : "VTK/solve_000_28800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.89
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_28900/internal.vtu"
+    Boundary  : "VTK/solve_000_28900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_28900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_28900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.9
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29000/internal.vtu"
+    Boundary  : "VTK/solve_000_29000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.91
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29100/internal.vtu"
+    Boundary  : "VTK/solve_000_29100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29100/boundary/wall.vtp"
+Wrote in 0.11 s, 341316 kB
+Time: 2.92
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29200/internal.vtu"
+    Boundary  : "VTK/solve_000_29200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29200/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 2.93
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29300/internal.vtu"
+    Boundary  : "VTK/solve_000_29300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29300/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 2.94
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29400/internal.vtu"
+    Boundary  : "VTK/solve_000_29400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.95
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29500/internal.vtu"
+    Boundary  : "VTK/solve_000_29500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 2.96
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29600/internal.vtu"
+    Boundary  : "VTK/solve_000_29600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.97
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29700/internal.vtu"
+    Boundary  : "VTK/solve_000_29700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.98
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29800/internal.vtu"
+    Boundary  : "VTK/solve_000_29800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 2.99
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_29900/internal.vtu"
+    Boundary  : "VTK/solve_000_29900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_29900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_29900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30000/internal.vtu"
+    Boundary  : "VTK/solve_000_30000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.01
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30100/internal.vtu"
+    Boundary  : "VTK/solve_000_30100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.02
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30200/internal.vtu"
+    Boundary  : "VTK/solve_000_30200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.03
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30300/internal.vtu"
+    Boundary  : "VTK/solve_000_30300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.04
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30400/internal.vtu"
+    Boundary  : "VTK/solve_000_30400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.05
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30500/internal.vtu"
+    Boundary  : "VTK/solve_000_30500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.06
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30600/internal.vtu"
+    Boundary  : "VTK/solve_000_30600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.07
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30700/internal.vtu"
+    Boundary  : "VTK/solve_000_30700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.08
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30800/internal.vtu"
+    Boundary  : "VTK/solve_000_30800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.09
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_30900/internal.vtu"
+    Boundary  : "VTK/solve_000_30900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_30900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_30900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31000/internal.vtu"
+    Boundary  : "VTK/solve_000_31000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.11
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31100/internal.vtu"
+    Boundary  : "VTK/solve_000_31100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.12
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31200/internal.vtu"
+    Boundary  : "VTK/solve_000_31200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.13
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31300/internal.vtu"
+    Boundary  : "VTK/solve_000_31300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.14
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31400/internal.vtu"
+    Boundary  : "VTK/solve_000_31400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31400/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.15
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31500/internal.vtu"
+    Boundary  : "VTK/solve_000_31500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.16
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31600/internal.vtu"
+    Boundary  : "VTK/solve_000_31600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.17
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31700/internal.vtu"
+    Boundary  : "VTK/solve_000_31700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.18
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31800/internal.vtu"
+    Boundary  : "VTK/solve_000_31800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.19
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_31900/internal.vtu"
+    Boundary  : "VTK/solve_000_31900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_31900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_31900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32000/internal.vtu"
+    Boundary  : "VTK/solve_000_32000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.21
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32100/internal.vtu"
+    Boundary  : "VTK/solve_000_32100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.22
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32200/internal.vtu"
+    Boundary  : "VTK/solve_000_32200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.23
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32300/internal.vtu"
+    Boundary  : "VTK/solve_000_32300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.24
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32400/internal.vtu"
+    Boundary  : "VTK/solve_000_32400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32400/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.25
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32500/internal.vtu"
+    Boundary  : "VTK/solve_000_32500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32500/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 3.26
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32600/internal.vtu"
+    Boundary  : "VTK/solve_000_32600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32600/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.27
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32700/internal.vtu"
+    Boundary  : "VTK/solve_000_32700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.28
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32800/internal.vtu"
+    Boundary  : "VTK/solve_000_32800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.29
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_32900/internal.vtu"
+    Boundary  : "VTK/solve_000_32900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_32900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_32900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33000/internal.vtu"
+    Boundary  : "VTK/solve_000_33000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33000/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.31
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33100/internal.vtu"
+    Boundary  : "VTK/solve_000_33100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.32
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33200/internal.vtu"
+    Boundary  : "VTK/solve_000_33200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.33
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33300/internal.vtu"
+    Boundary  : "VTK/solve_000_33300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.34
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33400/internal.vtu"
+    Boundary  : "VTK/solve_000_33400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.35
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33500/internal.vtu"
+    Boundary  : "VTK/solve_000_33500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.36
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33600/internal.vtu"
+    Boundary  : "VTK/solve_000_33600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.37
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33700/internal.vtu"
+    Boundary  : "VTK/solve_000_33700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33700/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.38
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33800/internal.vtu"
+    Boundary  : "VTK/solve_000_33800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.39
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_33900/internal.vtu"
+    Boundary  : "VTK/solve_000_33900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_33900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_33900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34000/internal.vtu"
+    Boundary  : "VTK/solve_000_34000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34000/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 3.41
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34100/internal.vtu"
+    Boundary  : "VTK/solve_000_34100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.42
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34200/internal.vtu"
+    Boundary  : "VTK/solve_000_34200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.43
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34300/internal.vtu"
+    Boundary  : "VTK/solve_000_34300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.44
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34400/internal.vtu"
+    Boundary  : "VTK/solve_000_34400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34400/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 3.45
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34500/internal.vtu"
+    Boundary  : "VTK/solve_000_34500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34500/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.46
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34600/internal.vtu"
+    Boundary  : "VTK/solve_000_34600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.47
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34700/internal.vtu"
+    Boundary  : "VTK/solve_000_34700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.48
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34800/internal.vtu"
+    Boundary  : "VTK/solve_000_34800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.49
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_34900/internal.vtu"
+    Boundary  : "VTK/solve_000_34900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_34900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_34900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35000/internal.vtu"
+    Boundary  : "VTK/solve_000_35000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.51
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35100/internal.vtu"
+    Boundary  : "VTK/solve_000_35100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.52
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35200/internal.vtu"
+    Boundary  : "VTK/solve_000_35200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.53
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35300/internal.vtu"
+    Boundary  : "VTK/solve_000_35300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.54
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35400/internal.vtu"
+    Boundary  : "VTK/solve_000_35400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.55
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35500/internal.vtu"
+    Boundary  : "VTK/solve_000_35500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35500/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.56
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35600/internal.vtu"
+    Boundary  : "VTK/solve_000_35600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.57
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35700/internal.vtu"
+    Boundary  : "VTK/solve_000_35700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.58
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35800/internal.vtu"
+    Boundary  : "VTK/solve_000_35800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.59
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_35900/internal.vtu"
+    Boundary  : "VTK/solve_000_35900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_35900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_35900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.6
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36000/internal.vtu"
+    Boundary  : "VTK/solve_000_36000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36000/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.61
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36100/internal.vtu"
+    Boundary  : "VTK/solve_000_36100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.62
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36200/internal.vtu"
+    Boundary  : "VTK/solve_000_36200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.63
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36300/internal.vtu"
+    Boundary  : "VTK/solve_000_36300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.64
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36400/internal.vtu"
+    Boundary  : "VTK/solve_000_36400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.65
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36500/internal.vtu"
+    Boundary  : "VTK/solve_000_36500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.66
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36600/internal.vtu"
+    Boundary  : "VTK/solve_000_36600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.67
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36700/internal.vtu"
+    Boundary  : "VTK/solve_000_36700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.68
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36800/internal.vtu"
+    Boundary  : "VTK/solve_000_36800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.69
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_36900/internal.vtu"
+    Boundary  : "VTK/solve_000_36900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_36900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_36900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.7
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37000/internal.vtu"
+    Boundary  : "VTK/solve_000_37000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37000/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.71
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37100/internal.vtu"
+    Boundary  : "VTK/solve_000_37100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.72
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37200/internal.vtu"
+    Boundary  : "VTK/solve_000_37200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.73
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37300/internal.vtu"
+    Boundary  : "VTK/solve_000_37300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.74
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37400/internal.vtu"
+    Boundary  : "VTK/solve_000_37400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.75
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37500/internal.vtu"
+    Boundary  : "VTK/solve_000_37500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.76
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37600/internal.vtu"
+    Boundary  : "VTK/solve_000_37600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.77
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37700/internal.vtu"
+    Boundary  : "VTK/solve_000_37700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.78
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37800/internal.vtu"
+    Boundary  : "VTK/solve_000_37800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.79
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_37900/internal.vtu"
+    Boundary  : "VTK/solve_000_37900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_37900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_37900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.8
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38000/internal.vtu"
+    Boundary  : "VTK/solve_000_38000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.81
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38100/internal.vtu"
+    Boundary  : "VTK/solve_000_38100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.82
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38200/internal.vtu"
+    Boundary  : "VTK/solve_000_38200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.83
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38300/internal.vtu"
+    Boundary  : "VTK/solve_000_38300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38300/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.84
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38400/internal.vtu"
+    Boundary  : "VTK/solve_000_38400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.85
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38500/internal.vtu"
+    Boundary  : "VTK/solve_000_38500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.86
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38600/internal.vtu"
+    Boundary  : "VTK/solve_000_38600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.87
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38700/internal.vtu"
+    Boundary  : "VTK/solve_000_38700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.88
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38800/internal.vtu"
+    Boundary  : "VTK/solve_000_38800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.89
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_38900/internal.vtu"
+    Boundary  : "VTK/solve_000_38900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_38900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_38900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.9
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39000/internal.vtu"
+    Boundary  : "VTK/solve_000_39000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.91
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39100/internal.vtu"
+    Boundary  : "VTK/solve_000_39100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.92
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39200/internal.vtu"
+    Boundary  : "VTK/solve_000_39200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.93
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39300/internal.vtu"
+    Boundary  : "VTK/solve_000_39300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.94
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39400/internal.vtu"
+    Boundary  : "VTK/solve_000_39400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.95
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39500/internal.vtu"
+    Boundary  : "VTK/solve_000_39500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.96
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39600/internal.vtu"
+    Boundary  : "VTK/solve_000_39600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 3.97
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39700/internal.vtu"
+    Boundary  : "VTK/solve_000_39700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 3.98
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39800/internal.vtu"
+    Boundary  : "VTK/solve_000_39800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39800/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 3.99
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_39900/internal.vtu"
+    Boundary  : "VTK/solve_000_39900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_39900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_39900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40000/internal.vtu"
+    Boundary  : "VTK/solve_000_40000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.01
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40100/internal.vtu"
+    Boundary  : "VTK/solve_000_40100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.02
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40200/internal.vtu"
+    Boundary  : "VTK/solve_000_40200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.03
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40300/internal.vtu"
+    Boundary  : "VTK/solve_000_40300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40300/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 4.04
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40400/internal.vtu"
+    Boundary  : "VTK/solve_000_40400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.05
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40500/internal.vtu"
+    Boundary  : "VTK/solve_000_40500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.06
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40600/internal.vtu"
+    Boundary  : "VTK/solve_000_40600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.07
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40700/internal.vtu"
+    Boundary  : "VTK/solve_000_40700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.08
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40800/internal.vtu"
+    Boundary  : "VTK/solve_000_40800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.09
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_40900/internal.vtu"
+    Boundary  : "VTK/solve_000_40900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_40900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_40900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.1
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41000/internal.vtu"
+    Boundary  : "VTK/solve_000_41000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.11
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41100/internal.vtu"
+    Boundary  : "VTK/solve_000_41100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.12
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41200/internal.vtu"
+    Boundary  : "VTK/solve_000_41200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.13
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41300/internal.vtu"
+    Boundary  : "VTK/solve_000_41300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.14
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41400/internal.vtu"
+    Boundary  : "VTK/solve_000_41400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.15
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41500/internal.vtu"
+    Boundary  : "VTK/solve_000_41500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.16
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41600/internal.vtu"
+    Boundary  : "VTK/solve_000_41600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.17
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41700/internal.vtu"
+    Boundary  : "VTK/solve_000_41700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.18
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41800/internal.vtu"
+    Boundary  : "VTK/solve_000_41800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.19
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_41900/internal.vtu"
+    Boundary  : "VTK/solve_000_41900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_41900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_41900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.2
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42000/internal.vtu"
+    Boundary  : "VTK/solve_000_42000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.21
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42100/internal.vtu"
+    Boundary  : "VTK/solve_000_42100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42100/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 4.22
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42200/internal.vtu"
+    Boundary  : "VTK/solve_000_42200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.23
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42300/internal.vtu"
+    Boundary  : "VTK/solve_000_42300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.24
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42400/internal.vtu"
+    Boundary  : "VTK/solve_000_42400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.25
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42500/internal.vtu"
+    Boundary  : "VTK/solve_000_42500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.26
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42600/internal.vtu"
+    Boundary  : "VTK/solve_000_42600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.27
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42700/internal.vtu"
+    Boundary  : "VTK/solve_000_42700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.28
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42800/internal.vtu"
+    Boundary  : "VTK/solve_000_42800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.29
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_42900/internal.vtu"
+    Boundary  : "VTK/solve_000_42900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_42900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_42900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.3
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43000/internal.vtu"
+    Boundary  : "VTK/solve_000_43000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.31
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43100/internal.vtu"
+    Boundary  : "VTK/solve_000_43100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.32
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43200/internal.vtu"
+    Boundary  : "VTK/solve_000_43200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.33
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43300/internal.vtu"
+    Boundary  : "VTK/solve_000_43300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.34
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43400/internal.vtu"
+    Boundary  : "VTK/solve_000_43400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.35
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43500/internal.vtu"
+    Boundary  : "VTK/solve_000_43500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.36
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43600/internal.vtu"
+    Boundary  : "VTK/solve_000_43600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.37
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43700/internal.vtu"
+    Boundary  : "VTK/solve_000_43700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.38
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43800/internal.vtu"
+    Boundary  : "VTK/solve_000_43800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.39
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_43900/internal.vtu"
+    Boundary  : "VTK/solve_000_43900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_43900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_43900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.4
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44000/internal.vtu"
+    Boundary  : "VTK/solve_000_44000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.41
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44100/internal.vtu"
+    Boundary  : "VTK/solve_000_44100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.42
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44200/internal.vtu"
+    Boundary  : "VTK/solve_000_44200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.43
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44300/internal.vtu"
+    Boundary  : "VTK/solve_000_44300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.44
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44400/internal.vtu"
+    Boundary  : "VTK/solve_000_44400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.45
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44500/internal.vtu"
+    Boundary  : "VTK/solve_000_44500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.46
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44600/internal.vtu"
+    Boundary  : "VTK/solve_000_44600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.47
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44700/internal.vtu"
+    Boundary  : "VTK/solve_000_44700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.48
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44800/internal.vtu"
+    Boundary  : "VTK/solve_000_44800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.49
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_44900/internal.vtu"
+    Boundary  : "VTK/solve_000_44900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_44900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_44900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45000/internal.vtu"
+    Boundary  : "VTK/solve_000_45000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.51
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45100/internal.vtu"
+    Boundary  : "VTK/solve_000_45100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.52
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45200/internal.vtu"
+    Boundary  : "VTK/solve_000_45200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.53
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45300/internal.vtu"
+    Boundary  : "VTK/solve_000_45300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.54
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45400/internal.vtu"
+    Boundary  : "VTK/solve_000_45400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.55
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45500/internal.vtu"
+    Boundary  : "VTK/solve_000_45500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.56
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45600/internal.vtu"
+    Boundary  : "VTK/solve_000_45600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.57
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45700/internal.vtu"
+    Boundary  : "VTK/solve_000_45700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.58
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45800/internal.vtu"
+    Boundary  : "VTK/solve_000_45800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45800/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 4.59
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_45900/internal.vtu"
+    Boundary  : "VTK/solve_000_45900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_45900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_45900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.6
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46000/internal.vtu"
+    Boundary  : "VTK/solve_000_46000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.61
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46100/internal.vtu"
+    Boundary  : "VTK/solve_000_46100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.62
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46200/internal.vtu"
+    Boundary  : "VTK/solve_000_46200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.63
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46300/internal.vtu"
+    Boundary  : "VTK/solve_000_46300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46300/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.64
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46400/internal.vtu"
+    Boundary  : "VTK/solve_000_46400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.65
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46500/internal.vtu"
+    Boundary  : "VTK/solve_000_46500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46500/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.66
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46600/internal.vtu"
+    Boundary  : "VTK/solve_000_46600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.67
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46700/internal.vtu"
+    Boundary  : "VTK/solve_000_46700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.68
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46800/internal.vtu"
+    Boundary  : "VTK/solve_000_46800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46800/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.69
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_46900/internal.vtu"
+    Boundary  : "VTK/solve_000_46900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_46900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_46900/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.7
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47000/internal.vtu"
+    Boundary  : "VTK/solve_000_47000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.71
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47100/internal.vtu"
+    Boundary  : "VTK/solve_000_47100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.72
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47200/internal.vtu"
+    Boundary  : "VTK/solve_000_47200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.73
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47300/internal.vtu"
+    Boundary  : "VTK/solve_000_47300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.74
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47400/internal.vtu"
+    Boundary  : "VTK/solve_000_47400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47400/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 4.75
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47500/internal.vtu"
+    Boundary  : "VTK/solve_000_47500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.76
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47600/internal.vtu"
+    Boundary  : "VTK/solve_000_47600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47600/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.77
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47700/internal.vtu"
+    Boundary  : "VTK/solve_000_47700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.78
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47800/internal.vtu"
+    Boundary  : "VTK/solve_000_47800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47800/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 4.79
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_47900/internal.vtu"
+    Boundary  : "VTK/solve_000_47900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_47900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_47900/boundary/wall.vtp"
+Wrote in 0.02 s, 341316 kB
+Time: 4.8
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48000/internal.vtu"
+    Boundary  : "VTK/solve_000_48000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48000/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.81
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48100/internal.vtu"
+    Boundary  : "VTK/solve_000_48100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48100/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.82
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48200/internal.vtu"
+    Boundary  : "VTK/solve_000_48200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48200/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.83
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48300/internal.vtu"
+    Boundary  : "VTK/solve_000_48300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48300/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.84
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48400/internal.vtu"
+    Boundary  : "VTK/solve_000_48400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48400/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.85
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48500/internal.vtu"
+    Boundary  : "VTK/solve_000_48500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.86
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48600/internal.vtu"
+    Boundary  : "VTK/solve_000_48600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.87
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48700/internal.vtu"
+    Boundary  : "VTK/solve_000_48700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48700/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.88
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48800/internal.vtu"
+    Boundary  : "VTK/solve_000_48800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.89
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_48900/internal.vtu"
+    Boundary  : "VTK/solve_000_48900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_48900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_48900/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.9
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49000/internal.vtu"
+    Boundary  : "VTK/solve_000_49000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.91
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49100/internal.vtu"
+    Boundary  : "VTK/solve_000_49100/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49100/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49100/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.92
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49200/internal.vtu"
+    Boundary  : "VTK/solve_000_49200/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49200/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49200/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.93
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49300/internal.vtu"
+    Boundary  : "VTK/solve_000_49300/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49300/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49300/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 4.94
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49400/internal.vtu"
+    Boundary  : "VTK/solve_000_49400/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49400/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49400/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.95
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49500/internal.vtu"
+    Boundary  : "VTK/solve_000_49500/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49500/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49500/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.96
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49600/internal.vtu"
+    Boundary  : "VTK/solve_000_49600/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49600/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49600/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.97
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49700/internal.vtu"
+    Boundary  : "VTK/solve_000_49700/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49700/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49700/boundary/wall.vtp"
+Wrote in 0.04 s, 341316 kB
+Time: 4.98
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49800/internal.vtu"
+    Boundary  : "VTK/solve_000_49800/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49800/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49800/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+Time: 4.99
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_49900/internal.vtu"
+    Boundary  : "VTK/solve_000_49900/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_49900/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_49900/boundary/wall.vtp"
+Wrote in 0.05 s, 341316 kB
+Time: 5
+    volScalar    : Co initialResidual:p p
+    volVector    : U
+    Internal  : "VTK/solve_000_50000/internal.vtu"
+    Boundary  : "VTK/solve_000_50000/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_000_50000/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_000_50000/boundary/wall.vtp"
+Wrote in 0.03 s, 341316 kB
+
+End: 15.03 s, 348584 kB (peak)
+
+Finalising parallel run

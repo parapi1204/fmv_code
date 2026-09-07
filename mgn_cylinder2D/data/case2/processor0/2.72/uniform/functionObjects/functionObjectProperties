@@ -1,0 +1,89 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "2.72/uniform/functionObjects";
+    object      functionObjectProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+cdf7e925f5746741c316f5fbcf39ad0dfca90775
+{
+    residuals
+    {
+        scalar
+        {
+            p_initial       0.0274831;
+            p_final         0.00129832;
+        }
+        label
+        {
+            p_iters         6;
+        }
+    }
+    finalResiduals
+    {
+        scalar
+        {
+            Ux_initial      0.00285888;
+            Ux_final        5.29825e-06;
+            Uy_initial      0.00481796;
+            Uy_final        8.222490000000001e-06;
+            p_initial       0.0274831;
+            p_final         0.00129832;
+        }
+        label
+        {
+            Ux_iters        1;
+            Uy_iters        1;
+            p_iters         6;
+        }
+    }
+    minMaxDomain
+    {
+        vector
+        {
+            min(U)          ( -0.136687 -1.13136 -2.39381e-18 );
+            min(U)_position ( 0.156344 0.0401092 -0.01025 );
+            max(U)          ( 2.74443 2.0544 3.20696e-20 );
+            max(U)_position ( 0.11529 0.06635099999999999 -0.01025 );
+            min(p)_position ( 0.128243 0.0219824 -0.01025 );
+            max(p)_position ( 0.107787 0.0447382 -0.01025 );
+        }
+        label
+        {
+            min(U)_cell     434;
+            min(U)_processor 0;
+            max(U)_cell     99;
+            max(U)_processor 0;
+            min(p)_cell     935;
+            min(p)_processor 0;
+            max(p)_cell     777;
+            max(p)_processor 0;
+        }
+        scalar
+        {
+            min(p)          -7.405777381405008;
+            max(p)          4.458305195362809;
+        }
+    }
+    meanOutlet
+    {
+        vector
+        {
+            areaAverage(outlet,U) ( 1.99718 -0.669071 8.56183e-24 );
+        }
+    }
+}
+
+
+// ************************************************************************* //

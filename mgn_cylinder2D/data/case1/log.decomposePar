@@ -1,0 +1,79 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1653fa08-20260127 OPENFOAM=2406 patch=260127 version=2406
+Arch   : "LSB;label=32;scalar=64"
+Exec   : decomposePar -decomposeParDict system/decomposeParDict
+Date   : Aug 27 2026
+Time   : 08:47:53
+Host   : 4eaeaf850773
+PID    : 239511
+I/O    : uncollated
+Case   : /app/run/cylinder2D/solve_001
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh
+
+Create mesh
+
+Calculating distribution of cells
+Decomposition method hierarchical [2] (region region0)
+
+Finished decomposition in 0 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 1917
+    Number of points = 4376
+    Number of faces shared with processor 1 = 31
+    Number of processor patches = 1
+    Number of processor faces = 31
+    Number of boundary faces = 4178
+
+Processor 1
+    Number of cells = 1918
+    Number of points = 4240
+    Number of faces shared with processor 0 = 31
+    Number of processor patches = 1
+    Number of processor faces = 31
+    Number of boundary faces = 4088
+
+Number of processor faces = 31
+Max number of cells = 1918 (0.0260756% above average 1917.5)
+Max number of processor patches = 1 (0% above average 1)
+Max number of faces between processors = 31 (0% above average 31)
+
+Time = 0
+
+
+--> FOAM FATAL IO ERROR: (openfoam-2406 patch=260127)
+Cannot find patchField entry for patch
+
+file: 0/p/boundaryField at line 25 to 44.
+
+    From void Foam::GeometricBoundaryField<Type, PatchField, GeoMesh>::readField(const Internal&, const Foam::dictionary&) [with Type = double; PatchField = Foam::fvPatchField; GeoMesh = Foam::volMesh; Foam::GeometricBoundaryField<Type, PatchField, GeoMesh>::Internal = Foam::DimensionedField<double, Foam::volMesh>]
+    in file ./src/OpenFOAM/lnInclude/GeometricBoundaryField.C at line 330.
+
+FOAM exiting
+

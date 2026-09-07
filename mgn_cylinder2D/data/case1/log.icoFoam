@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1653fa08-20260127 OPENFOAM=2406 patch=260127 version=2406
+Arch   : "LSB;label=32;scalar=64"
+Exec   : icoFoam -parallel
+Date   : Aug 27 2026
+Time   : 08:48:02
+Host   : 4eaeaf850773
+PID    : 239685
+I/O    : uncollated
+Case   : /app/run/cylinder2D/solve_001
+nProcs : 2
+Hosts  :
+(
+    (4eaeaf850773 2)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PISO: Operating solver in PISO mode
+
+Reading transportProperties
+
+Reading field p
+
+[0] 
+[0] 
+[0] --> FOAM FATAL ERROR: (openfoam-[1] 
+2406 patch=260127)
+[0] cannot find file "/app/run/cylinder2D/solve_001/processor0/0/p"
+[0] 
+[0]     From virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const
+[0]     in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 629.
+[0] 
+FOAM parallel run exiting
+[0] 
+[1] 
+[1] --> FOAM FATAL ERROR: (openfoam-2406 patch=260127)
+[1] cannot find file "/app/run/cylinder2D/solve_001/processor1/0/p"
+[1] 
+[1]     From virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const
+[1]     in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 629.
+[1] 
+FOAM parallel run exiting
+[1] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[4eaeaf850773:239643] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[4eaeaf850773:239643] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

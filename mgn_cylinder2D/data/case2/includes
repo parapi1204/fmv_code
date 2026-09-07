@@ -1,0 +1,17 @@
+meshDir mesh_002/constant/polyMesh;
+
+startTime       0;
+endTime         5;
+deltaT          0.0001;
+writeInterval   0.01;
+
+nx      2;
+ny      1;
+nz      1;
+nProcs  2;
+
+nu      1e-5;
+
+UIn     (2 0 0);
+// kIn     0.01;  // 1.5 * (turInt / UIn)^2
+// epIn 0.01;  // (Cmu^0.75) * (kIn^1.5 / (0.03 * L))

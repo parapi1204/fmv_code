@@ -1,0 +1,16 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+#------------------------------------------------------------------------------
+
+touch ${PWD##*/}.foam
+
+restore0Dir
+runApplication decomposePar -decomposeParDict system/decomposeParDict
+runParallel $(getApplication)
+runApplication reconstructPar -latestTime
+runApplication foamLog log.$(getApplication)
+runParallel foamToVTK
+python3 post.py > log.postPy
+
+#------------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2406                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _1653fa08-20260127 OPENFOAM=2406 patch=260127 version=2406
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -parallel
+Date   : Aug 27 2026
+Time   : 08:48:05
+Host   : 4eaeaf850773
+PID    : 240001
+I/O    : uncollated
+Case   : /app/run/cylinder2D/solve_001
+nProcs : 2
+Hosts  :
+(
+    (4eaeaf850773 2)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 284
+    No time specified or available, selecting 'constant'
+Initial memory 337816 kB
+Create mesh for time = constant
+
+VTK mesh topology: 0.01 s, 338860 kB
+Time: constant
+    Internal  : "VTK/solve_001_0/internal.vtu"
+    Boundary  : "VTK/solve_001_0/boundary/patch.vtp"
+    Boundary  : "VTK/solve_001_0/boundary/inlet.vtp"
+    Boundary  : "VTK/solve_001_0/boundary/outlet.vtp"
+    Boundary  : "VTK/solve_001_0/boundary/wall.vtp"
+Wrote in 0.01 s, 340460 kB
+
+End: 0.02 s, 348584 kB (peak)
+
+Finalising parallel run

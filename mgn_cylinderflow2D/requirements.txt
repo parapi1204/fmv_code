@@ -1,0 +1,8 @@
+physicsnemo
+torch
+torch-geometric
+pyvista
+vtk
+numpy
+scipy
+matplotlib
